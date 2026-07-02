@@ -31,3 +31,9 @@ Non-functional requirements:
 - Role-based access control.
 - Basic audit log is required.
 - The system should be easy to maintain and extend.
+================================================
+
+
+================================================
+Addition instruction : 
+ミーティングメモに基づいて、SDLC向けの明確な要件定義書を作成してください。事実、仮定事項、未確認事項を分けて記載してください。根拠のない要件は追加せず、ユーザー権限、業務ルール、セキュリティ要件、監査ログ、通知フローを重視してください。

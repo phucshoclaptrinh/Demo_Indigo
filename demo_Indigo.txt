@@ -1,0 +1,33 @@
+Meeting Memo - Internal Leave Request System
+
+Client wants to build an internal web system for managing employee leave requests.
+
+Main users:
+- Employee
+- Manager
+- HR Admin
+
+Current problem:
+Employees are sending leave requests by email or chat, so it is difficult for managers and HR to track leave history, approval status, and remaining leave days.
+
+Expected features:
+1. Employees can log in and submit leave requests.
+2. A leave request includes leave type, start date, end date, reason, and attachment if needed.
+3. Managers can approve or reject requests from their team members.
+4. If rejected, the manager must provide a reason.
+5. Employees can check the status of their requests.
+6. HR Admin can view all leave requests and export monthly reports.
+7. The system should send email notifications when a request is submitted, approved, or rejected.
+
+Rules:
+- Employees cannot request leave in the past.
+- End date must be greater than or equal to start date.
+- Annual leave balance should be checked before submission.
+- Only the direct manager can approve the request.
+- HR Admin can view all data but cannot approve on behalf of managers.
+
+Non-functional requirements:
+- Web-based system.
+- Role-based access control.
+- Basic audit log is required.
+- The system should be easy to maintain and extend.
